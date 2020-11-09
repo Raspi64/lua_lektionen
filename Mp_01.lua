@@ -10,7 +10,10 @@ function polynom1 (x)
     return (x+1) * (x+2) * (x+3)
 end
 
+function multiprint() print("l") print("d") print("h") a="hallo" return a end
+
 print("Gebe eine Zahl ein")
 innum = io.read()
 test = polynom1(innum)
 print(test)
+print(multiprint())
