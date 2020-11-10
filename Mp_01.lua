@@ -4,16 +4,61 @@
 --- DateTime: 09.11.20 19:27
 ---
 
-local innum, test
 
+-- Eigene Variablen
+local number
+
+-- Eigene Funktionen
 function polynom1 (x)
-    return (x+1) * (x+2) * (x+3)
+    return (x + 1) * (x + 2) * (x + 3)
 end
 
-function multiprint() print("l") print("d") print("h") a="hallo" return a end
+function polynom2 (x)
+    return (x - 1) * (x - 2) * (x - 3)
+end
 
-print("Gebe eine Zahl ein")
-innum = io.read()
-test = polynom1(innum)
-print(test)
-print(multiprint())
+-- Zahl überprüfer
+function isnumber(y)
+    if type(y) == "number" then
+        return 1
+    else
+        return -1
+    end
+end
+
+function readInput()
+
+end
+
+-- Teil 1: Eine Zahl einlesen und sie in einer funktion verwenden
+print("Eine Zahl einlesen und verarbeiten")
+
+while number == nil do
+    io.write("Gebe eine Zahl ein: ")
+    io.flush()
+    number = io.read("*l")
+    print(number)
+    io.flush()
+    number = tonumber(number)
+end
+number = polynom1(number)
+print("Das Ergebnis ist: ", number)
+
+
+-- polynom1 mit 0 bis 20
+print("Polynom 1 mit den Zahlen 0 bis 20")
+for i = 0, 20 do
+    print("polynom 1",polynom1(i))
+end
+
+
+--Modifikationen
+print("Modifikation 1")
+
+
+
+-- polynom2 mit 0 bis 20
+print("Polynom 2 mit den Zahlen 0 bis 20")
+for i = 0, 20 do
+    print("polynom 2",polynom2(i))
+end
