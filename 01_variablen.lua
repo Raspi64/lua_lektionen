@@ -14,10 +14,10 @@ local string = "String"
 local number = 1
 local table = {}
 local boolean = true
-local funktion = function(parameter) return parameter +20 end
 
-print = function()
-    -- noop
+
+local funktion = function(parameter)
+    return parameter + 20
 end
 
 print("String:", string)
@@ -26,3 +26,11 @@ print("Table:", table)
 print("Boolean:", boolean)
 print("Funktions-Pointer:", funktion)
 print("Functions-Resultat:", funktion(5))
+
+
+print = function()
+    io.write("Hallo User")
+    -- noop
+end
+
+print("Hallo Raspi64 ")

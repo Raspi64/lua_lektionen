@@ -3,6 +3,7 @@
 
 -- io.write gibt den Input ohne Zeilen umbruch an die Konsole aus
 io.write("ohne zeilen umbruch")
+
 -- Für einen Zeilen Umpruch wird ein extra \n benötigt
 io.write(" einfach drangehangen \n")
 
