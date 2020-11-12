@@ -1,22 +1,22 @@
-
---- Arytmetische Operatoren
+--- Arithmetische Operatoren
 
 a=2
 b=2
+
 -- +
--- Adds two operands
+-- Addieren
 c=a+b
 
 -- -
--- subtracs two operands
+-- Subtrahieren
 c=a-b
 
 -- *
--- Multiply two operands
+-- Multiplizieren
 c=a*b
 
 -- /
--- divide two operands
+-- Bruchrechnen
 c=a/b
 
 -- %
@@ -29,42 +29,42 @@ c=a^b
 
 
  --- Relational Operators
--- c enthält einen boolien (Wahr /falsch)
--- Diese operatorn dienen zur Bedingungscheckung
+-- c enthält einen boolean (Wahr /falsch)
+-- Diese Operatoren dienen zur überprüfung von Bedingungen
 
 -- ==
--- Vergleicht ob Zwei Operatoren gleich sind
+-- Vergleicht ob zwei Operatoren gleich sind
 c = a==b
 
 -- ~=
--- Vergleicht ob Zwei Operatoren ungleich sind
+-- Vergleicht ob zwei Operatoren ungleich sind
 c = a~=b
 
 -- >
--- Vergleicht ob der linke operant größer als der rechte ist sind
+-- Vergleicht ob der linke Operant größer als der rechte Operant ist sind
 c = a>b
 
 -- <
--- Vergleicht ob der linke operant kleiner als der rechte ist sind
+-- Vergleicht ob der linke Operant kleiner als der rechte Operant ist sind
 c = a<b
 
 -- >=
--- Vergleicht ob der linke operant größer oder gleich als der rechte ist sind
+-- Vergleicht ob der linke Operant größer oder gleich als der rechte Operant ist sind
 c = a>=b
 
 -- <=
--- Vergleicht ob der linke operant kleiner oder gleich als der rechte ist sind
+-- Vergleicht ob der linke Operant kleiner oder gleich als der rechte Operant ist sind
 c = a<=b
 
 --- Logische Operatoren
--- logische operatoren dienen zur verklüofung von Variablen
+-- logische Operatoren dienen zur Verknüpfung von Variablen
 
 -- and
--- und Verküpfung
+-- und Verknüpfung
 c = a and b
 
 -- or
--- oder Verküpfung
+-- oder Verknüpfung
 c = a or b
 
 -- not
@@ -81,7 +81,7 @@ e= Raspi64
 f = d..e
 
 -- #
--- giebt die länge eines Strings aus
+-- gibt die Länge eines Strings aus
 -- f ist gleich 5
 f= #a
 

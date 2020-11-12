@@ -6,13 +6,13 @@
 -- parameter :  Varablenname = Startwert,Endwert,Schrittgröße
 -- Hallo Raspi64  wird 10 mal augegeben
 for i = 1, 10,1 do
-print("Hallo Raspi64 ")
+print("Nr.",i,": Hallo Raspi64 ")
 end
 
 -- wenn die Schrittgröße nicht defeniert ist ist sie automatisch immer 1
 -- Hallo Raspi64  wird 10 mal augegeben
 for i = 1, 10 do
-   print("Hallo Raspi64 ")
+   print("Nr.",i,": Hallo Raspi64 ")
 end
 
 -- Einfache While Endlos-Schleife
